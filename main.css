@@ -1,0 +1,27 @@
+body {
+    background-color: blueviolet;
+    font-family: 'Amatic SC', cursive;
+    font-size: x-large;
+}
+body { 
+background-image: url(nezuko\ gif.gif);
+background-size: auto
+}
+body {
+    background-image: url(nezuko\ gif.gif);
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+  }
+h1 {
+    color: azure
+}
+h3 {
+    color: blueviolet
+}
+p {
+    color: azure
+}
+img.animated-gif{
+    width: 150px;
+    height: auto;
+  }
