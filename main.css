@@ -1,7 +1,6 @@
 body {
     background-color: blueviolet;
     font-family: 'Amatic SC', cursive;
-    font-size: x-large;
 }
 body { 
 background-image: url(nezuko\ gif.gif);
@@ -12,12 +11,22 @@ body {
     background-repeat: no-repeat;
     background-size: 2000px 1000px;
   }
+  .box1 {background-color: darkgreen}
 h1 {
-    color: azure
+    color: azure;
+    font-size: 45px;
 }
 h3 {
-    color: blueviolet
+    color: blueviolet;
+    font-size: 30px;
 }
 div {
     color: azure
+}
+.box {
+    color:white;
+    font-size: 25px;
+}
+.container {
+    display: flex;
 }
