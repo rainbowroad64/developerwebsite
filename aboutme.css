@@ -1,17 +1,9 @@
 body {
-    background-color: blueviolet;
-    font-family: 'Amatic SC', cursive;
+    font-family:'Amatic SC',cursive;
+    background-image:url("nezukoRunning.gif");
+    background-repeat:no-repeat;
+    background-size:2000px 1000px;
 }
-body { 
-background-image: url(nezuko\ gif.gif);
-background-size: auto
-}
-body {
-    background-image: url(nezuko\ gif.gif);
-    background-repeat: no-repeat;
-    background-size: 2000px 1000px;
-  }
-  .box1 {background-color: darkgreen}
 h1 {
     color: azure;
     font-size: 45px;
@@ -29,4 +21,9 @@ div {
 }
 .container {
     display: flex;
+}
+.box1 {background-color: darkgreen}
+nav {
+    font-size: 25px;
+    color: aliceblue
 }
