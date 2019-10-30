@@ -1,29 +1,40 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family:'Amatic SC',cursive;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+  flex: 1
+}
+#page1 {
     background-image:url("nezukoRunning.gif");
     background-repeat:no-repeat;
     background-size:2000px 1000px;
+}
+#page2 {
+    background-image:url("images/kimetsunoyaiba.gif");
+    background-repeat:no-repeat;
+    background-size:2000px 1200px;
+}
+#page3 {
+    background-image:url("images/kimetsunoyaibaHead.gif");
+    background-repeat:no-repeat;
+    background-size:2000px 1200px;
 }
 h1 {
     color: azure;
     font-size: 45px;
 }
-h3 {
+h2 {
     color: blueviolet;
     font-size: 30px;
 }
-div {
-    color: azure
-}
-.box {
-    color:white;
-    font-size: 25px;
-}
 .container {
-    display: flex;
+    display: flexbox;
 }
-.box1 {background-color: darkgreen}
 nav {
     font-size: 25px;
-    color: aliceblue
+    color: aliceblue;
 }
