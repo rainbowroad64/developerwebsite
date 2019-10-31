@@ -2,11 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family:'Amatic SC',cursive;
-    color:white;
-    font-size: 20px;
     text-align: center;
-  flex: 1
 }
 #page1 {
     background-image:url("nezukoRunning.gif");
@@ -21,20 +17,55 @@ body {
 #page3 {
     background-image:url("images/kimetsunoyaibaHead.gif");
     background-repeat:no-repeat;
-    background-size:2000px 1200px;
+    background-size:2000px 1400px;
+}
+#page4 {
+    background-image:url("akiracity.gif");
+    background-repeat:no-repeat;
+    background-size:2000px 1000px;
 }
 h1 {
     color: azure;
     font-size: 45px;
 }
 h2 {
-    color: blueviolet;
+    color: aqua;
     font-size: 30px;
 }
 .container {
-    display: flexbox;
+    display: flex;
+    flex-flow: wrap;
+}
+.container1 {
+    display: inline-flex;
+    flex-flow: wrap;
 }
 nav {
     font-size: 25px;
     color: aliceblue;
 }
+.box {
+    color:white;
+    font-size: 20px;
+    font-family:'Amatic SC',cursive;
+    text-align: start;
+    padding:15px;
+  flex-wrap: 1;
+}
+.box1 {color:white;
+    font-size: 20px;
+    font-family:'Amatic SC',cursive;
+    text-align: center;
+    padding:15px;
+  flex-wrap: 1;}
+div.box {
+
+    margin: 30px;
+    
+    background-color: forestgreen;
+    
+    border: 1px solid black;
+    
+    opacity: 0.9;
+    
+    filter: alpha(opacity=40);}
