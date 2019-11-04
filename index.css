@@ -24,6 +24,11 @@ body {
     background-repeat:no-repeat;
     background-size:2000px 1000px;
 }
+#page5 {
+    background-image:url("neotokyo.gif");
+    background-repeat:no-repeat;
+    background-size:2000px 1000px;
+}
 h1 {
     color: azure;
     font-size: 45px;
